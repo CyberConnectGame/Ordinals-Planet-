@@ -26309,17 +26309,17 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Audio,
 	cr.plugins_.Browser,
+	cr.plugins_.Audio,
 	cr.plugins_.Cocoon_Canvasplus,
 	cr.plugins_.Function,
-	cr.plugins_.Keyboard,
 	cr.plugins_.LocalStorage,
+	cr.plugins_.Keyboard,
 	cr.plugins_.Particles,
-	cr.plugins_.Sprite,
-	cr.plugins_.TiledBg,
-	cr.plugins_.Touch,
 	cr.plugins_.Text,
+	cr.plugins_.TiledBg,
+	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
 	cr.plugins_.WebStorage,
 	cr.behaviors.solid,
 	cr.behaviors.Flash,
